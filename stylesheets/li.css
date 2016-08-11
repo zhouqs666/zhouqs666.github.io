@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrap{
+    text-align: center;
+}
+#wrap ul{
+    display: inline-block;
+}
+li {
+    margin: 35px auto;
+   	list-style: none;
+    width: 150px;
+    height: 35px;
+    /*border: solid 1px red;*/
+    /*border-radius: 1px;*/
+    line-height: 30px;
+    text-align: center;
+    background: lightblue;
+    color: lightseagreen;
+    float: left;
+    font-size: 30px;
+    font-family: "Microsoft YaHei";
+}
+li a{
+    text-decoration: none;
+}
+a:link{
+    color: cadetblue;
+}
+a:visited{
+    color: cadetblue;
+}
+a:hover{
+   color: lightgoldenrodyellow;
+}
+a:active{
+    color: deepskyblue;
+}
+a{
+    color: cadetblue;
+}
+
