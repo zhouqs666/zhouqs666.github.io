@@ -17,7 +17,7 @@ li {
     /*border-radius: 1px;*/
     line-height: 30px;
     text-align: center;
-    background: lightblue;
+    /*background: black;*/
     color: lightseagreen;
     float: left;
     font-size: 30px;
@@ -42,3 +42,9 @@ a{
     color: cadetblue;
 }
 
+.bg{
+
+    -webkit-background-size: cover;
+    background: url("../images/bg.jpg");
+    background-size: cover;
+}
