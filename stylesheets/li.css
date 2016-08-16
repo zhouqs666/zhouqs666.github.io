@@ -20,7 +20,6 @@ li {
     /*background: black;*/
     color: lightseagreen;
     float: left;
-    font-size: 30px;
     font-family: "Microsoft YaHei";
 }
 li a{
@@ -28,23 +27,21 @@ li a{
 }
 a:link{
     color: cadetblue;
+    font-size: 30px;
 }
 a:visited{
     color: cadetblue;
 }
 a:hover{
    color: lightgoldenrodyellow;
+   font-size: 35px;
 }
 a:active{
     color: deepskyblue;
 }
-a{
-    color: cadetblue;
-}
-
 .bg{
 
     -webkit-background-size: cover;
-    background: url("../images/bg.jpg");
+    background: url("../images/homeBg.jpg");
     background-size: cover;
 }
