@@ -1,0 +1,8 @@
+#BottomWrap{
+    position: fixed;
+    bottom: 0;
+    left: 835px;
+}
+.bottom p{
+    color: white;
+}

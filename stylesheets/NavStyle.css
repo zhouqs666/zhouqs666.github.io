@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#NavWrap{
+    text-align: center;
+}
+#NavWrap ul{
+    display: inline-block;
+}
+li {
+    margin: 35px auto;
+   	list-style: none;
+    width: 150px;
+    height: 35px;
+    /*border: solid 1px red;*/
+    /*border-radius: 1px;*/
+    line-height: 30px;
+    text-align: center;
+    /*background: black;*/
+    color: lightseagreen;
+    float: left;
+    font-family: "Microsoft YaHei";
+}
+.Nav li a{
+    text-decoration: none;
+}
+.Nav a:link{
+    color: cadetblue;
+    font-size: 30px;
+}
+.Nav a:visited{
+    color: cadetblue;
+}
+.Nav a:hover{
+   color: white;
+   font-size: 35px;
+}
+.Nav a:active{
+    color: deepskyblue;
+}
+.bg{
+
+    -webkit-background-size: cover;
+    background: url("../images/homeBg.jpg");
+    background-size: cover;
+}
